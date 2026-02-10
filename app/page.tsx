@@ -12,6 +12,9 @@ export default function HomePage() {
   // A gyökér elem gyakran React fragment: <> </>
   // JSX kódban nincs class attribútum,
   // helyette a className attribútumot kell használni
+  // a return után akkor kell zárójel "()", ha a JSX kód több soros
+  // JSX kódban kapcsos zárójelek közé JavaScrip kifejezések kerülhetnek
+  // A kapcsos zárójelek közé JavaScript utasítások (if, for, stb.) nem kerülhetnek
 
   return (
     <>
